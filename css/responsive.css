@@ -1,0 +1,44 @@
+/*
+  -------------------------------------
+   RESPONSIVE STYLES FOR SMARTPHONE
+  -------------------------------------
+*/
+
+@media only screen and (max-width: 767px) {
+    .row {
+       flex-direction: column;
+       text-align: center;
+    }
+    .work-item {
+        margin-bottom: 1rem;
+    }
+    .col-small-12 {
+        width: 100%;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .personal-info-block {
+        text-align: center;
+    }
+}
+
+/*
+  -------------------------------------
+   RESPONSIVE STYLES FOR TABLETS
+  -------------------------------------
+*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .works-section .row {
+        flex-direction: column;
+        text-align: center;
+     }
+     .work-item {
+        margin-bottom: 1rem;
+    }
+    .col-medium-12 {
+        width: 100%;
+    }
+}
